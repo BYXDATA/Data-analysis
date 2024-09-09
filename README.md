@@ -1,12 +1,13 @@
 # Heart Disease Prediction using Machine Learning Techniques
 
 ## Table of Contents
-1. [Introduction](#introduction) (page 3)
-2. [Exploratory Data Analysis](#exploratory-data-analysis) (pages 4-6)
-3. [Gaussian Naive Bayes](#gaussian-naive-bayes) (page 7)
-4. [Logistic Regression](#logistic-regression) (page 8)
-5. [Linear Discriminant Analysis (LDA)](#linear-discriminant-analysis-lda) (page 9)
-6. [Quadratic Discriminant Analysis (QDA)](#quadratic-discriminant-analysis-qda) (page 10)
+1. [Introduction](#introduction) 
+2. [Exploratory Data Analysis](#exploratory-data-analysis) 
+3. [Gaussian Naive Bayes](#gaussian-naive-bayes) 
+4. [Logistic Regression](#logistic-regression) 
+5. [Linear Discriminant Analysis (LDA)](#linear-discriminant-analysis-lda) 
+6. [Quadratic Discriminant Analysis (QDA)](#quadratic-discriminant-analysis-qda)
+7. 
 
 ## Introduction
 The dataset under examination is a classic resource used in medical diagnostics, particularly for predicting heart disease. Originating from databases compiled in 1988, this dataset includes records from Cleveland, Hungary, Switzerland, and Long Beach V. It features 76 attributes, with 14 key attributes commonly used for analysis and prediction.
@@ -30,7 +31,8 @@ The goal is to build predictive models and perform statistical analyses to ident
 - `thal`: Thalassemia (categorical, encoded as integers)
 - `target`: Target variable indicating the presence of heart disease (1 = disease, 0 = no disease)
 
-![image](https://github.com/user-attachments/assets/c9b6728c-3bc7-4772-9509-7b8e66ad78a4)
+![image](https://github.com/user-attachments/assets/13d3668b-ff73-4fba-91da-83175b2c8794)
+
 
 The dataset contains 14 columns and 1025 rows.
 
@@ -44,12 +46,24 @@ The Gaussian Naive Bayes algorithm is used as it is well-suited for continuous f
 
 ## Logistic Regression
 Logistic regression was applied to analyze patient data and predict the probability of developing heart disease based on age. After training, the model predicted a high probability of disease for a 46-year-old person.
-![image](https://github.com/user-attachments/assets/3b117eb0-0c30-4bce-9b0a-1c34c0a7b94f)
+
+<img src="https://github.com/user-attachments/assets/50ead4fa-3109-4039-9154-919f3386b6d3" alt="image" style="width:50%; height:auto;"/>
+
 
 ## Linear Discriminant Analysis (LDA)
 Linear Discriminant Analysis (LDA) projects data onto a line to maximize class separation and minimize variance. The LDA model achieved an accuracy of 84.18%. It performed well in identifying patients with heart disease (recall: 0.90) and those without (recall: 0.78). The precision was 0.88 for no disease and 0.81 for disease.
 
+![image](https://github.com/user-attachments/assets/828b85c2-50d9-49ff-b682-4a89d2120b82)
+
 ## Quadratic Discriminant Analysis (QDA)
 Quadratic Discriminant Analysis (QDA) allows for different variances between classes and finds quadratic surfaces to separate them. The QDA model achieved an accuracy of 82.14%. It performed better at identifying patients without heart disease (precision: 0.87) than those with heart disease (precision: 0.78). There were 36 false positives and 19 false negatives.
+
 ![image](https://github.com/user-attachments/assets/e8fb8b27-1daa-4b39-a6ce-48a76477ca70)
+
+
+## Credits
+
+This file was created by:
+- [Joud Ahmad Al-huthaly] (https://github.com/BYXDATA)
+- [Nehal Hamed Al-zahrani] (https://github.com/nehal3589)
 
