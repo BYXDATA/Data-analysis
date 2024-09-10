@@ -7,7 +7,7 @@
 4. [Logistic Regression](#logistic-regression) 
 5. [Linear Discriminant Analysis (LDA)](#linear-discriminant-analysis-lda) 
 6. [Quadratic Discriminant Analysis (QDA)](#quadratic-discriminant-analysis-qda)
-7. 
+   
 
 ## Introduction
 The dataset under examination is a classic resource used in medical diagnostics, particularly for predicting heart disease. Originating from databases compiled in 1988, this dataset includes records from Cleveland, Hungary, Switzerland, and Long Beach V. It features 76 attributes, with 14 key attributes commonly used for analysis and prediction.
